@@ -2,12 +2,12 @@
 
 int main()
 {
-	FileIO_RW f;
+	FileIO_RW g;
 
-	f.readData();
-	f.calcTotal();
-	f.calcAvg();
-	f.writeData();
+	g.readData();
+	g.calcTotal();
+	g.calcAvg();
+	g.writeData();
 
 	return 0;
 }
